@@ -4,10 +4,17 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        int price = 15_000;
-        int bonus = 20;
-        int result = price / bonus;
-        System.out.println(result);
+        int startBalance = 300;
+        int contribution = 1100;
+        int bonus = contribution / 100;
+        int totalBalance;
+        if (contribution > 1000) {
+            totalBalance = startBalance + contribution + bonus;
+        } else {
+            totalBalance = startBalance + contribution;
+
+        }
+        System.out.println(totalBalance);
     }
 }
 
