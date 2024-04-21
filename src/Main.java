@@ -15,6 +15,7 @@ public class Main {
 
         }
         System.out.println(totalBalance);
+        System.out.println(bonus);
     }
 }
 
