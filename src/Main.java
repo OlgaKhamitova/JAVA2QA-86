@@ -6,8 +6,8 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         int price = 15_000;
         int bonus = 20;
-        System.out.println (price / bonus);
         int result = price / bonus;
+        System.out.println(result);
     }
 }
 
