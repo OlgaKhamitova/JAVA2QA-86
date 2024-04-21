@@ -14,8 +14,8 @@ public class Main {
             totalBalance = startBalance + contribution;
 
         }
-        System.out.println(totalBalance);
-        System.out.println(bonus);
+        System.out.println("Общий баланс: " + totalBalance);
+        System.out.println("Начисленные бонусы: " + bonus);
     }
 }
 
